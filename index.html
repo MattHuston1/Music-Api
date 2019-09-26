@@ -7,11 +7,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
 </head>
-<body>
+
   <h1>Music API</h1>
 
-  <h3>Search</h3>
+  <form id="songForm">
+    <Label for="message">Artist</Label>
+    <input type="text" name="message" id="artistName" placeholder="Artist">
+    <Label for="message">Song</Label>
+    <input type="text" name="message" id="songName" placeholder="Song">
+    <button type="submit" name="button" id="button">Search</button>
+  </form>
 
+  <!-- <h3>Search by Song Name</h3>
+  <input class="bandName" type="text">
+  <input class="songName" type="text">
+
+  <h3>Search of Lyrics</h3>
+  <input type="text"> -->
 
 
   <script src="app.js"></script>
